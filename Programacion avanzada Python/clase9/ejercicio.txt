@@ -1,0 +1,31 @@
+
+#2.- se requiere realizar un programa para vender que sirva para controlar la operación diaria de un cine
+
+#- Registrar un cine (nombre, rut y dirección) OK!
+
+#- Registrar las salas y sus asientos (numeración) OK!
+
+#- Se puedan registar la cartelera de cada día, las películas de ese día y los respectivos horarios, OK!
+
+#  registrar las salas de cada película OK!
+
+#- Colocar un valor estándar por tipo de entrada, normal o vip, OK!
+
+#- Poder vender la boletería de cada dia y asignar asientos por ticket, verificar que el asiento escogido ya no este vendido OK!
+
+#- Reportar las entradas totales vendidas por cada dia OK!
+
+#- Reportar las entradas vendidas por cada función OK!
+
+#- Reportar las entradas totales vendidas por películas OK!
+
+#- Reportar las entradas totales vendidas por cada dia, película y funcion
+
+
+#NOTA:
+
+# Debe considerar diagramar las clases que interactuaran en el programa, así como manejar las excepciones,
+
+# y hacer un menu de seleccion de las opciones
+
+
