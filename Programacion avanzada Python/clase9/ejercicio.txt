@@ -29,3 +29,58 @@
 # y hacer un menu de seleccion de las opciones
 
 
+from datetime import datetime
+
+fecha = datetime.today().strftime('%Y-%m-%d')
+
+class Cine:
+    price_ticket_type = {
+        'regular': 4000,
+        'vip': 7500,
+    }
+
+    def __init__(self, _name, _rut, _address):
+        self.name = _name
+        self.rut = _rut
+        self.address = _address
+        self.room = []
+        self.cartelera = []
+        self.ticket_vendido = []
+        self.movies = []
+
+    # Resto del código...
+
+    def mostrar_menu(self):
+        while True:
+            print("===== MENÚ =====")
+            print("1. Ver total de entradas vendidas por día")
+            print("2. Ver total de entradas vendidas por función")
+            print("3. Ver total de entradas vendidas por película")
+            print("4. Reporte general de entradas vendidas")
+            print("5. Salir")
+
+            opcion = input("Ingrese el número de opción: ")
+
+            if opcion == "1":
+                fecha = input("Ingrese la fecha (YYYY-MM-DD): ")
+                self.total_entradas_vendidas(fecha)
+            elif opcion == "2":
+                self.total_entradas_funcion()
+            elif opcion == "3":
+                self.total_entradas_peliculas()
+            elif opcion == "4":
+                self.reporte_general()
+            elif opcion == "5":
+                break
+            else:
+                print("Opción inválida. Por favor, ingrese una opción válida.")
+
+# Resto del código...
+
+# Crear una instancia del cine
+cineBadPractice = Cine("CineBadPractice", "78.323.456-7", "En Algun Lugar")
+
+# Agregar películas, salas, funciones, etc.
+
+# Mostrar el menú
+cineBadPractice.mostrar_menu()

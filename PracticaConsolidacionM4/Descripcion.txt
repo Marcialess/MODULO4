@@ -1,0 +1,31 @@
+Parte 1:
+1.	Un vehículo contiene los siguientes atributos: marca, modelo y número de ruedas.
+2.	Un automóvil contiene los siguientes atributos: marca, modelo, número de ruedas, velocidad y cilindrada.
+Parte 2:
+3.	Partiendo de la descripción anterior por parte del cliente, nos plantea que se manejan dos tipos de automóviles tipo:
+     particular y carga, que contienen todas las características de un automóvil.
+4.	● Los automóviles tipo particular contienen adicionalmente los números de puesto.
+5.	● Los automóviles tipo carga contienen adicionalmente el peso de la carga en kg.
+6.	Adicionalmente, se tienen el tipo de vehículos que son bicicleta que contiene las características
+7.	de los vehículos, y se le adiciona el tipo de bicicleta que puede ser: Urbana o de Carrera.
+8.	Con los tipos de bicicletas tenemos las motocicletas que contienen todas las características de una bicicleta, además de las siguientes: nro_radios, cuadro y motor.
+Actividades en la parte 2
+9.	● Diseñe el Diagrama de Clases para las exigencias antes mencionadas por parte del cliente.
+10.	● Codifique en Python las clases previamente diseñadas.
+11.	● Agregue las siguientes instancias en el archivo principal.
+12.	Verificar la relación que existe de la instancia motocicleta con: Vehículo, Automóvil, Particular,
+13.	Carga, Bicicleta y Motocicleta. Obteniendo la siguiente salida:
+
+Parte 3:
+14.	En esta tercera parte el cliente quiere que se guarden los datos en un archivo con el nombre de vehiculos.csv, es decir, un archivo separado por comas.
+15.	Para esto se debe tener en cuenta el siguiente ejemplo de guía con relación a la manipulación de objetos en los archivos csv
+Actividades en este parte 3:
+16.	● Crear el método que permita guardar cada uno de los objetos previamente creados en el archivo vehiculos.csv, el nombre del método es: guardar_datos_csv(self)
+17.	Tome como referencia los siguientes objetos:
+18.	En el archivo vehiculos.cvs se guardan de la siguiente manera:
+19.	La estructura para guardar son la clase, y luego los atributos del objeto de la clase.
+20.	● Cree un método que lea del archivo vehiculos.csv con el nombre leer_datos_csv(self) y que imprima por pantalla o terminal lo siguiente según la clasificación del vehículo:
+21.	En los métodos creados utilice el manejo de excepciones en caso de errores en el
+archivo.
+
+
